@@ -1,0 +1,20 @@
+# AWS Region
+aws_region = "us-east-1"
+
+# Project Configuration
+project_name = "aws-infra"
+environment  = "production"
+
+# Networking
+vpc_cidr = "10.0.0.0/16"
+
+# EKS Configuration
+kubernetes_version = "1.29"
+
+# Database Configuration
+db_name     = "appdb"
+db_username = "dbadmin"
+db_password = "change-me-secure-password"
+
+# Redis Configuration
+redis_auth_token = "change-me-secure-redis-token"
